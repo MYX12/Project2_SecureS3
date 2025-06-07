@@ -8,8 +8,9 @@
 This project demonstrates a secure and resilient S3-based storage architecture for protecting sensitive data in AWS. It integrates data encryption, fine-grained access control, audit logging, real-time alerts, and automated recovery to simulate a real-world enterprise-grade security workflow.
 
 ## Architecture Diagram
+![project2](https://github.com/user-attachments/assets/c73e7c33-1142-4e8b-9b17-69866bc30c13)
 
-![Architecture Diagram](./architecture-diagram.png)
+
 
 ## Features & Technologies
 
