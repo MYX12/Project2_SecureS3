@@ -49,6 +49,3 @@ This project demonstrates a secure and resilient S3-based storage architecture f
 - Good grasp of how to implement compliance and security monitoring in AWS  
 - Experienced with automation pipelines and security response playbooks  
 
-## TL;DR (Summary for Recruiters)
-
-> Designed and implemented an AWS security automation project focused on S3 data protection. Includes IAM tag-based control, audit logging with CloudTrail, alerting with CloudWatch + SNS, and automatic object recovery via Lambda and EventBridge.
