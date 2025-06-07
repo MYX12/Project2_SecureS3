@@ -15,13 +15,13 @@ This project demonstrates a secure and resilient S3-based storage architecture f
 
 | Feature                              | Description                                                  |
 |--------------------------------------|--------------------------------------------------------------|
-| ✅ S3 encryption (SSE-S3)             | Secure all stored data automatically                        |
-| ✅ IAM Tag-based access control       | Enforce least privilege via identity tags                   |
-| ✅ CloudTrail logging (Data Events)   | Monitor and log S3 object access and deletion                |
-| ✅ CloudWatch Metrics + SNS           | Trigger alerts on unusual activity                          |
-| ✅ EventBridge + Lambda               | Automatically restore deleted objects from backup bucket     |
-| ✅ GuardDuty integration (optional)   | Real-time threat detection on AWS account activities         |
-| ✅ DynamoDB logging (optional)        | Record triggered events for further investigation            |
+|  S3 encryption (SSE-S3)             | Secure all stored data automatically                        |
+|  IAM Tag-based access control       | Enforce least privilege via identity tags                   |
+|  CloudTrail logging (Data Events)   | Monitor and log S3 object access and deletion                |
+|  CloudWatch Metrics + SNS           | Trigger alerts on unusual activity                          |
+|  EventBridge + Lambda               | Automatically restore deleted objects from backup bucket     |
+|  GuardDuty integration              | Real-time threat detection on AWS account activities         |
+
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ This project demonstrates a secure and resilient S3-based storage architecture f
 3. Enable CloudTrail with Data Event tracking for the main bucket  
 4. Set up Metric Filters and CloudWatch Alarms with SNS notification  
 5. Deploy Lambda function triggered by EventBridge for object recovery  
-6. (Optional) Integrate GuardDuty and DynamoDB for advanced threat analytics  
+6. Integrate GuardDuty and DynamoDB for advanced threat analytics  
 
 ## What I Learned
 
